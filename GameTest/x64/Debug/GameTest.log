@@ -1,5 +1,1 @@
-﻿  Game.cpp
-  Player.cpp
-  Generowanie kodu...
-Game.obj : error LNK2001: nierozpoznany symbol zewnętrzny "public: virtual void __cdecl nGameEngine::GameObject::AddComponent(class std::shared_ptr<class nGameEngine::Component>)" (?AddComponent@GameObject@nGameEngine@@UEAAXV?$shared_ptr@VComponent@nGameEngine@@@std@@@Z)
-D:\cpp\GameEngine\x64\Debug\GameTest.exe : fatal error LNK1120: liczba nierozpoznanych elementów zewnętrznych: 1
+﻿  GameTest.vcxproj -> D:\cpp\GameEngine\x64\Debug\GameTest.exe

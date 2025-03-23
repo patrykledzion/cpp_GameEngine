@@ -19,8 +19,8 @@ void Game::Init()
 	player2->GetComponent<KeyboardMovement>()->LEFT_KEY = 'D';
 	player2->GetComponent<KeyboardMovement>()->RIGHT_KEY = 'A';
 
-	player->AddComponent(std::make_shared<CircleCollision>(player, this->GetGameObjects()));
-	player2->AddComponent(std::make_shared<CircleCollision>(player2, this->GetGameObjects()));
+	player->AddComponent(std::make_unique<CircleCollision>(player, this->GetGameObjects()));
+	player2->AddComponent(std::make_unique<CircleCollision>(player2, this->GetGameObjects()));
 
 	//player->GetComponent<CircleCollision>()->relativeRadius = 2.;
 	this->gameObjects->push_back((GameObject*)player);
