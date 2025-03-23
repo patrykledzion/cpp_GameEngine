@@ -1,0 +1,2 @@
+﻿glu32.lib(GLU32.dll) : warning LNK4006: element __NULL_IMPORT_DESCRIPTOR jest już zdefiniowany w elemencie opengl32.lib(OPENGL32.dll); druga definicja została zignorowana
+  WindowsLib.vcxproj -> D:\cpp\GameEngine\x64\Debug\WindowsLib.lib
