@@ -1,4 +1,5 @@
 #include "Transform.h"
+#include "GameObject.h"
 
 nGameEngine::Transform::Transform(GameObject* gameObject) : Component(gameObject)
 {

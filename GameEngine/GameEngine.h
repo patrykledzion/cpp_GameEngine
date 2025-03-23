@@ -25,6 +25,7 @@ namespace nGameEngine {
 			this->window = std::make_unique<Window>(title, width, height); 
 			this->Init();
 		};
+		virtual ~GameEngine() = default;
 		virtual void Update();
 		virtual void Draw();
 

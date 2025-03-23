@@ -26,6 +26,7 @@ namespace nGameEngine {
 		char RIGHT_KEY = 'D';
 
 		KeyboardMovement(GameObject* gameObject);
+		~KeyboardMovement() = default;
 		void Update() override;
 	};
 }

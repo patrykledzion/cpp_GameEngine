@@ -11,6 +11,7 @@ namespace nGameEngine {
 		nWindow::Vector2 speedY = { 0,0 };
 		bool gravity = false;
 		RigidBody(GameObject* gameObject) : Component(gameObject) {}
+		~RigidBody() = default;
 		void Update() override;
 	};
 }

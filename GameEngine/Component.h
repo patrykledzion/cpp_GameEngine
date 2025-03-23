@@ -9,7 +9,8 @@ namespace nGameEngine {
 	protected:
 		std::unique_ptr<GameObject> gameObject;
 	public: 
-		Component(GameObject* gameObject) : gameObject(std::move(gameObject)) {}
+		Component(GameObject* gameObject) { this->gameObject.reset(gameObject); }
+		virtual ~Component() = default;
 		virtual void Update() {};
 		virtual void Draw() {};
 	};

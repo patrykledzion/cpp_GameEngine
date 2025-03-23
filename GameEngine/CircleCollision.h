@@ -26,6 +26,7 @@ namespace nGameEngine {
 
 		CircleCollision(GameObject* gameObject, std::vector<GameObject*>* gameObjects, nWindow::Vector2 relativeCenter, float relativeRadius) :
 			Component(gameObject), gameObjects(gameObjects), relativeCenter(relativeCenter), relativeRadius(relativeRadius) {}
+		~CircleCollision() = default;
 		void Update() override;
 		std::vector<DetectedCollision>* GetCollisions() { return &this->collisions; };
 	};

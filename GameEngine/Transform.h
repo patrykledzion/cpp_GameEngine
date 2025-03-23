@@ -8,6 +8,7 @@ namespace nGameEngine {
 		nWindow::Vector3 pos;
 		nWindow::Vector3 size;
 		Transform(GameObject* gameObject);
+		~Transform() = default;
 	};
 
 }
