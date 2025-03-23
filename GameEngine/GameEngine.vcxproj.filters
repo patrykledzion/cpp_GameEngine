@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Pliki źródłowe">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Pliki zasobów">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\Components">
+      <UniqueIdentifier>{2afe7ee1-2fb8-4baf-a0cd-8ec9f5bfe50e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Components">
+      <UniqueIdentifier>{e675078e-35f0-4e9a-995d-032816cb12d6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameEngine.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>Pliki źródłowe\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Pliki źródłowe\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Pliki źródłowe\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="RigidBody.cpp">
+      <Filter>Pliki źródłowe\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyboardMovement.cpp">
+      <Filter>Pliki źródłowe\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="CircleCollision.cpp">
+      <Filter>Pliki źródłowe\Components</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameEngine.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>Pliki nagłówkowe\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="RigidBody.h">
+      <Filter>Pliki nagłówkowe\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Pliki nagłówkowe\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Pliki nagłówkowe\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyboardMovement.h">
+      <Filter>Pliki nagłówkowe\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="CircleCollision.h">
+      <Filter>Pliki nagłówkowe\Components</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
